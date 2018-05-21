@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
-bot.login('NDM5NTMwMDMyOTA2NjMzMjM2.Dd3bzQ.enI0zAUgyubBmPppD7mYkKTIFYY')
+bot.login('process.env.TOKEN')
 
 bot.on('message', function (message) {
     if (message.content === 'salut')
